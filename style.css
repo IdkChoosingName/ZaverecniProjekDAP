@@ -73,10 +73,17 @@ label{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.hvezdy{
+    display: block;
+    margin: 10px;
+}
+
 /*O nás*/
 
 .AboutUs{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 /*Booking*/
