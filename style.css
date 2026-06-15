@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background-image: url("https://picsum.photos/id/1076/600/400");
+    background-image: url("./image.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,6 +22,10 @@ a:hover{
 
 label{
     color: #ffffff;
+}
+
+div{
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 /*Lišta*/
@@ -101,6 +105,8 @@ label{
 .textbox{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: auto;
 }
 
 label{
@@ -113,6 +119,7 @@ label{
     display: flex;
     width: min-content;
     flex-direction: column;
+    font-size: xx-large;
 }
 
 .datum{
@@ -129,17 +136,35 @@ label{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Cenik table{
     border: 1px black solid;
     border-collapse: collapse;
     background-color: #ffffff;
+    height: 500px;
+    width: 350px;
 }
 
 .Cenik th{
     border: 1px black solid;
     border-collapse: collapse;
+}
+
+.even{
+    background-color: grey;
+}
+
+.nadpis{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/*Kontakt*/
+
+.kontakt{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*mobilní zobrazení*/
